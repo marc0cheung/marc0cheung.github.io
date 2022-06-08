@@ -238,6 +238,6 @@ Real-Time Detection using local USB Camera based on YOLOv4 (AVG FPS 0.3, FOR GOD
 
 ## 总结
 
-实际上，如果用 Python 或者 C++ 版本的软件实现检测，完全不需要配置 Darknet 环境。直接将训练好的网络文件传进 Python 或 C++ 程序中即可。Python 程序是“开箱即用”的，但 C++ 程序还需要在 VS2019 中配置好 OpenCV 运行环境方可运行。
+实际上，如果用 Python 或者 C++ 版本的软件实现检测，完全不需要配置 Darknet 环境（參考[我的項目](https://github.com/marc0cheung/YOLOv4_Detection_dnnOpenCV)）。直接将训练好的网络文件传进 Python 或 C++ 程序中即可。Python 程序是“开箱即用”的，但 C++ 程序还需要在 VS2019 中配置好 OpenCV 运行环境方可运行。
 
 训练环境是必须要使用 Darknet 的。所以，在这里写 Darknet 的配置方法，主要是为了日后配置显卡后，可以在自己的计算机上进行训练深度学习网络。先配置好 Darknet ，再训练网络，得到权重，就可以传进 C++ 或 Python 的实时检测程序中使用了。
