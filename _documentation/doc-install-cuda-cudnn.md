@@ -15,7 +15,7 @@ tags:
 
 **Select Language**: English
 
-### 1. Download & Install CUDA (If you want to use GPU to run Darknet)
+### 1. Download & Install CUDA
 
 - Right Click on Windows desktop and select **NVIDIA Control Panel** 
 - Find `NVCUDA.DLL` in the menu bar under `Help` > `System Information` > `Components` to see the supported CUDA version of your GPU, which is 10.1 for GT 1030.
