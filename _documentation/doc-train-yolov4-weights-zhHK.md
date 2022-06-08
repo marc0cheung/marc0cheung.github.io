@@ -1,7 +1,7 @@
 ---
 title: 'Train .weights File for YOLOv4'
 date: 2022-06-08
-permalink: /doc/2022/06/train-yolov4-weights-zhCN/
+permalink: /doc/2022/06/train-yolov4-weights-zhHK/
 tags:
   - YOLOv4
   - YOLOv4 Weights
