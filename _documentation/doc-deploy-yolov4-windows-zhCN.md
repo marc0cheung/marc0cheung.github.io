@@ -57,6 +57,7 @@ Reference Link：****[labelimg使用简介](https://blog.csdn.net/m0_46653437/ar
 - CUDA Toolkit 下载地址：[https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
 完成下载后安装，**建议选择默认路径、“精简” 模式安装**。
 安装时勾选 `Visual Studio Intergration` 。安装完毕后，配置 CUDA 环境变量。
+- **2022年6月8日补充**：如果选用 ”精简“ 安装模式，所有的环境变量会自动配置完毕，无需手动执行下列引用块中所提及的配置。
 
 > 计算机上点右键，打开属性->高级系统设置->环境变量，可以看到系统中多了CUDA_PATH和 CUDA_PATH_V10_2两个环境变量。
 > 
@@ -106,7 +107,7 @@ cuDNN的版本需要与刚才下载的CUDA版本对应。选择对应CUDA版本�
 
 OpenCV Official Download Link: [Link](https://opencv.org/releases/)
 
-解压后设置环境变量：在系统环境变量中添加一个名为 `OpenCV_DIR` 的变量，Value 设置为 `D:\opencv\build （取决于安装路径）`
+解压后设置环境变量：在系统环境变量中添加一个名为 `OpenCV_DIR` 的变量（如下圖所示），Value 设置为 `D:\opencv\build （取决于安装路径）`
 
 在系统环境变量的 `Path` 中，添加路径 `D:\opencv455\opencv\build\x64\vc15\bin` ，这里的路径为 OpenCV 所解压到的目录。如果需要 32位 的 OpenCV，或者 未来在 VS2019 开发中需要用到 OpenCV with CUDA ，则需要自行通过 CMake 编译。这一点在另一篇说明文档中将会提到。
 
@@ -126,9 +127,9 @@ CMake GUI: `Windows win64-x64 Installer`  [https://cmake.org/download/](https:/
 
 CMAKE提示：You might need to add D:\opencv\build\x64\vc15\bin to your PATH to be able to run your applications.
 
-完成Configure流程之后CMake会自动进行编译，选择Open Project，VS打开之后选择Release X64，重新生成解决方案。编译完毕后可以在 `darknet\Release` 里面看到编译出来的 `darknet.exe` ，将这个文件拷贝到 `darknet\build\darknet\x64` 里面。
+完成 Configure 流程之后 CMake 会自动进行编译，选择 Open Project ， VS 打开之后选择 Release X64 ，重新生成解决方案。编译完毕后可以在 `darknet\Release` 里面看到编译出来的 `darknet.exe` ，将这个文件拷贝到 `darknet\build\darknet\x64` 里面。
 
-将opencv `…\opencv\build\x64\vc14\bin` 下的两个 `opencv_world3416.dll` 和  `opencv_ffmpeg3416_64.dll`  文件复制到上述文件夹内。
+将 `…\opencv\build\x64\vc14\bin` 下的两个 `opencv_world455.dll` 和  `opencv_ffmpeg455_64.dll`  文件复制到上述文件夹内。
 
 （如果有GPU）将 cuDNN 中的 `cudnn64_7.dll` 复制到上述文件夹。
 

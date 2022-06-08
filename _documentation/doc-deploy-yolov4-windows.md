@@ -103,13 +103,13 @@ The above has completed the configuration of all environments and you can use yo
 
 First, download the `yolov4.weights` file from GitHub and copy this file to `darknet\build\darknet\x64`.
 
-In the D:\darknet\build\darknet\x64\ directory, use `cmd` to run: 
+In the `D:\darknet\build\darknet\x64\` directory, use `cmd` to run: 
 
 ```bash
 darknet.exe detector test cfg\coco.data cfg\yolov4.cfg yolov4.weights data\remote1.jpg
 ```
 
-object detection of an image (remote1.jpg).
+object detection of an image ( *remote1.jpg* ).
 
 
 
@@ -119,7 +119,7 @@ Use `cmd` to run:
 darknet.exe detector demo cfg\coco.data cfg\yolov4.cfg yolov4.weights data\remote_video.mp4
 ```
 
-object detection of a video (remote.video.mp4)
+object detection of a video ( *remote.video.mp4* )
 
 
 
@@ -139,7 +139,7 @@ Image Detection via YOLO v3 Tiny (Relatively fast speed but very low recognition
 .\darknet.exe detector test cfg\coco.data cfg\yolov3-tiny.cfg yolov3-tiny.weights data\remote\remote1.jpg
 ```
 
-Real-Time Detection using local USB Camera based on YOLOv3 Tiny （识别率像个傻子）
+Real-Time Detection using local USB Camera based on YOLOv3 Tiny
 
 ```bash
 .\darknet.exe detector demo cfg\coco.data cfg\yolov3-tiny.cfg yolov3-tiny.weights
