@@ -16,7 +16,7 @@ tags:
 
 选择语言：[英文](https://marc0cheung.github.io/doc/2022/06/deploy-opencv-vs2019/) / 简体中文 / [正体中文](https://marc0cheung.github.io/doc/2022/06/deploy-opencv-vs2019-zhHK/)
 
-This tutorial is for those who wants to deploy OpenCV **(64bit, CPU Computing Version)** to their computer and develop their own OpenCV programme with **Microsoft Visual Studio 2019**. 
+
 
 这篇教程是写给那些想在自己的电脑上部署 64位 基于 CPU 的 OpenCV ，并用该框架用 Visual Studio 2019 进行应用程序开发的用户们。
 
@@ -32,9 +32,9 @@ This tutorial is for those who wants to deploy OpenCV **(64bit, CPU Computing Ve
 - 在 “解决方案资源管理器” 中，在解决方案名称处右键，选择 “属性” 。
 - 确定 “配置” 与 “平台” 是开发需要的配置，本文档以 Release x64 为例。
 
-<img src="D:\Github\marc0cheung.github.io\_documentation\doc-deploy-opencv-vs2019.assets\1654590227607.png" alt="img" style="zoom:60%;" />
+<img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-opencv-vs2019.assets/1654590227607.png" alt="img" style="zoom:60%;" />
 
-<img src="D:\Github\marc0cheung.github.io\_documentation\doc-deploy-opencv-vs2019.assets\16545905073982.png" alt="img" style="zoom: 67%;" />
+<img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-opencv-vs2019.assets/16545905073982.png" alt="img" style="zoom: 67%;" />
 
 - 切换到恰当配置后，选择 "C++" - "常规" - “附加包含目录”，添加如下目录：
   `D:\opencv\build\include`  以及
@@ -42,16 +42,16 @@ This tutorial is for those who wants to deploy OpenCV **(64bit, CPU Computing Ve
 
 
 
-<img src="D:\Github\marc0cheung.github.io\_documentation\doc-deploy-opencv-vs2019.assets\16545903811819.png" alt="img" style="zoom:50%;" />
+<img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-opencv-vs2019.assets/16545903811819.png" alt="img" style="zoom:50%;" />
 
-<img src="D:\Github\marc0cheung.github.io\_documentation\doc-deploy-opencv-vs2019.assets\1.png" alt="img" style="zoom:67%;" />
+<img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-opencv-vs2019.assets/1.png" alt="img" style="zoom:67%;" />
 
 - 在 “链接器” - “常规” - “附加库目录” 中添加：
   `D:\opencv\build\x64_dnn\vc16\lib` （如上二图所示）
 
 
 
-<img src="D:\Github\marc0cheung.github.io\_documentation\doc-deploy-opencv-vs2019.assets\1654590961156.png" alt="img" style="zoom:60%;" />
+<img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-opencv-vs2019.assets/1654590961156.png" alt="img" style="zoom:60%;" />
 
 - 在 “链接器” - “输入” - “附加依赖项” 中添加：
   `opencv_world455.lib` （如果解决方案使用 `Release` 模式）
