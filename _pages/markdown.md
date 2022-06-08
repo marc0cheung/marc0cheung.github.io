@@ -25,4 +25,4 @@ redirect_from:
 
 ### [How to Deploy YOLOv4 & Darknet to Windows 10](https://marc0cheung.github.io/doc/2022/06/deploy-yolov4-windows/)
 
-### [Train your own .weights File of YOLOv4]()
+### [Train your own .weights File of YOLOv4](https://marc0cheung.github.io/doc/2022/06/train-yolov4-weights/)

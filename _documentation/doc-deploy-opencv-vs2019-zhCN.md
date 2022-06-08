@@ -10,8 +10,6 @@ tags:
   - Simplified Chinese
 ---
 
-## 在 VS2019 项目上部署 OpenCV （以空控制台项目为例）
-
 ## 步骤 0: 确定这份教程适合你的情况
 
 选择语言：[英文](https://marc0cheung.github.io/doc/2022/06/deploy-opencv-vs2019/) / 简体中文 / [正体中文](https://marc0cheung.github.io/doc/2022/06/deploy-opencv-vs2019-zhHK/)
@@ -24,7 +22,21 @@ tags:
 
 
 
+## 步骤 1: 下载-安装 VS2019
 
+- 前往 [Microsoft Visual Studio](https://visualstudio.microsoft.com) 官方网站下载并正确安装 VS 2019。
+
+
+
+## 步骤 2：下载并安装 OpenCV 
+
+- 前往 [OpenCV Release](https://opencv.org/releases/) 下载 OpenCV 4.5.5 或需要的版本。OpenCV 3 与 OpenCV 4 的配置方法只有些许不同。
+- 运行 OpenCV 安装包，将 OpenCV 解压到 `D:\opencv\` 或者其它需要的路径地址。本文使用 `D:\opencv455\opencv\` 作为示范，下同。
+- 解压后，打开系统环境变量，将 `D:\oepncv455\opencv\build\x64\vc15\bin` 添加到系统变量的 `Path` 中。
+
+
+
+## 步骤 3：将 OpenCV 配置到 VS2019 上
 
 **以下示意图中的路径并不准确，仅作为示意用途，不代表配置过程中的真实路径。应当按照 OpenCV 真实的安装位置进行配置。**
 
@@ -56,3 +68,30 @@ tags:
 - 在 “链接器” - “输入” - “附加依赖项” 中添加：
   `opencv_world455.lib` （如果解决方案使用 `Release` 模式）
   如果解决方案使用 `Debug` 模式，则使用 `opencv_world455d.lib` 。
+
+
+
+此时，应当可以在这个项目中使用 OpenCV 进行开发，可以利用下面的代码，显示一张图片（图片需要执行程序前自行存入），检测 OpenCV 是否能正常工作。
+
+```c++
+#include <opencv2/opencv.hpp>
+#include <iostream>
+using namespace std;
+using namespace cv;
+
+int main()
+{
+    Mat image = imread("D:/Vs2019WorkSpace/HelloOpenCV/test.jpg");  
+    //Image Path
+    if (image.empty())
+    {
+        cout << "error";
+        return -1;
+    }
+
+    imshow("OpenCV Test", image);
+    waitKey(0);
+    return 0;
+}
+```
+

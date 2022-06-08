@@ -83,7 +83,3 @@ int main()
 <br>
 
 <br>
-
-Marco Cheung
-
-7th June, 2022
