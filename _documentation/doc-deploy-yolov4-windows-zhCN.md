@@ -54,7 +54,7 @@ Reference Link：****[labelimg使用简介](https://blog.csdn.net/m0_46653437/ar
 - 下载对应显卡型号的驱动，安装完毕后，把 `C:\Program Files\NVIDIA Corporation\NVSMI` 添加到系统的环境变量 `Path` 中。在 cmd 中输入： `nvidia-smi` ，如果能成功看到显卡信息，则说明驱动安装成功。
 - 在显卡驱动中查询 CUDA 版本，如下图所示。注意，官网上所选择下载的版本不能高于显卡驱动里显示的那个版本号，比如下图就不能高于11.4。
 
-<div align="center"><img src="D:\Github\marc0cheung.github.io\_documentation\doc-deploy-yolov4-windows.assets\Untitled.png" alt="Untitled" width="750px" /></div>
+<div align="center"><img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-yolov4-windows.assets/Untitled.png" alt="Untitled" width="750px" /></div>
 
 - CUDA Toolkit 下载地址：[https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
 完成下载后安装，**建议选择默认路径、“精简” 模式安装**。
@@ -98,7 +98,7 @@ CUDA安装完毕后，在 cmd 中输入： `nvcc -V` 指令进行测试。
 下载地址（需注册 Nvidia 账号）：[https://developer.nvidia.com/rdp/cudnn-download](https://developer.nvidia.com/rdp/cudnn-download)
 cuDNN的版本需要与刚才下载的CUDA版本对应。选择对应CUDA版本分支下的cuDNN Library for Windows (x86)，如下图所示
 
-<div align="center"><img src="D:\Github\marc0cheung.github.io\_documentation\doc-deploy-yolov4-windows.assets\Untitled 1.png" alt="Untitled" width="1000px" /></div>
+<div align="center"><img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-yolov4-windows.assets/Untitled 1.png" alt="Untitled" width="1000px" /></div>
 
 ⚠️⚠️⚠️ **具体安装流程请参考：** [https://zhuanlan.zhihu.com/p/416712347](https://zhuanlan.zhihu.com/p/416712347)
 
@@ -112,7 +112,7 @@ OpenCV Official Download Link: [Link](https://opencv.org/releases/)
 
 在系统环境变量的 `Path` 中，添加路径 `D:\opencv455\opencv\build\x64\vc15\bin` ，这里的路径为 OpenCV 所解压到的目录。如果需要 32位 的 OpenCV，或者 未来在 VS2019 开发中需要用到 OpenCV with CUDA ，则需要自行通过 CMake 编译。这一点在另一篇说明文档中将会提到。
 
-<div align="center"><img src="D:\Github\marc0cheung.github.io\_documentation\doc-deploy-yolov4-windows.assets\Untitled%202.png" alt="Untitled" width="800px" /></div>
+<div align="center"><img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-yolov4-windows.assets/Untitled%202.png" alt="Untitled" width="800px" /></div>
 
 
 
@@ -124,7 +124,7 @@ CMake GUI: `Windows win64-x64 Installer`  [https://cmake.org/download/](https:/
 
 选择最新版本安装，安装完毕后启动CMAKE GUI，按下图流程操作
 
-<div align="center"><img src="D:\Github\marc0cheung.github.io\_documentation\doc-deploy-yolov4-windows.assets\Untitled%203.png" alt="Untitled" width="700px" /></div>
+<div align="center"><img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-yolov4-windows.assets/Untitled%203.png" alt="Untitled" width="700px" /></div>
 
 CMAKE提示：You might need to add D:\opencv\build\x64\vc15\bin to your PATH to be able to run your applications.
 
