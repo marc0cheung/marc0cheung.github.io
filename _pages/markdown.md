@@ -19,12 +19,12 @@ redirect_from:
 
 
 
-## [How to Deploy YoloV4 & Darknet to Windows 10]()
-
-
-
- ## [How to Train your own .Weights File of YoloV4]()
+## [How to Deploy YOLOv4 & Darknet to Windows 10]()
 
 
 
 ## [Deploy CUDA and cuDNN]()
+
+
+
+## Train your own .weights File of YOLOv4
