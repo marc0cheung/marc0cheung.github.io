@@ -17,7 +17,7 @@ redirect_from:
 
 ### [How to Compile OpenCV with CUDA using CMake]()
 
-### [Deploy CUDA and cuDNN]()
+### [Deploy CUDA and cuDNN](https://marc0cheung.github.io/doc/2022/06/install-cuda-cudnn-windows/)
 
 
 

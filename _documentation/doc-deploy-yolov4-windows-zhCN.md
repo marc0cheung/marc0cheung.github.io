@@ -1,5 +1,5 @@
 ---
-title: '在 VS2019 项目上部署 OpenCV'
+title: '如何在 Windows 10 上部署 YOLOv4 检测网络（基于Darknet）'
 date: 2022-06-08
 permalink: /doc/2022/06/deploy-yolov4-windows-zhCN/
 tags:
@@ -9,8 +9,6 @@ tags:
   - Windows
   - Simplified Chinese
 ---
-
-## 如何在 Windows 10 上部署 YOLOv4 检测网络（基于Darknet）
 
 <aside>
 💡 Use this documentation to describe the steps engineers should follow to deploy.

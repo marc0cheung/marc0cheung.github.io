@@ -1,5 +1,5 @@
 ---
-title: 'How To Deploy OpenCV 4.5.5 to VS2019'
+title: 'Deploy YOLOv4 (Darknet) on Windows'
 date: 2022-06-08
 permalink: /doc/2022/06/deploy-yolov4-windows/
 tags:
@@ -8,8 +8,6 @@ tags:
   - Tutorials
   - Windows
 ---
-
-## Deploy YOLOv4 (Darknet) on Windows
 
 <aside>
 💡 Use this documentation to describe the steps engineers should follow to deploy.
