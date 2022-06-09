@@ -80,13 +80,77 @@ Google Colab 的文件存储机制类似于 RAM —— 断电后即清空。当�
 - **GitHub Webpage 一次只能上传 100 个文件**。在训练网络时，数百上千张图片如果分批上传到 GitHub，操作过程非常繁琐。
 - **GitHub 无法上传空白文本文件**。在训练过程中，对负样本（即图片中没有任何目标的情况）进行打标，会得到一个空白的文档，但 GitHub 并不支持空文档的上传，所以进而无法将负样本传入网络中训练。
 
+
+
 ### 利用 Google Drive 进行文件传输
 
-Google Drive 与 Google Colab 同属 Google 系列的产品，两个产品之间是支持文件交互的。所以也是一种非常好的，乃至 Google 官方推荐使用的办法。
+Google Drive 与 Google Colab 同属 Google 系列的产品，两个产品之间是支持文件交互的。所以也是一种非常好的，乃至 Google 官方推荐使用的办法。具体操作步骤如下：
+
+- 首先配置好 darknet 文件夹。若不知如何配置，可参见本教程末尾【darknet 文件夹训练前内容存放指南】
+
+- 将 darknet 文件夹上传到 Google Drive 中。
+
+- 打开 Google Colab，新建项目，并切换到带 GPU 的运行时。
+
+- 执行以下命令，挂载 Google Drive: 
+
+  ```python
+  from google.colab import drive
+  drive.amount(/drive/MyDrive)
+  ```
+
+- 执行 `cp -r` 指令，将 Google Drive 中的 darknet 文件夹拷贝到 ./content/ 目录中：
+
+  ```python
+  !cp -r ./drive/MyDrive/darknet/ ./content/
+  ```
+
+  
+
+- 用 `!ls` 指令确认 ./content/ 目录下是否有如下三个文件夹：
+
+  ```python
+  darknet  drive  simple
+  ```
+
+- 至此，就已经成功通过 Google Drive 与 Google Colab 实现文件传输。
+
+
 
 有些用户会直接将配置好的 darknet 文件夹上传到 Google Drive 中，在 Colab 挂载了 Google Drive 后，直接在 Drive 中的 darknet 文件夹执行 `!make` 、训练神经网络 等命令。我认为这是一种不稳定的操作，因为 Google Drive 在训练过程中有断开链接的可能，一旦断开，训练将直接终止，带来麻烦。
 
 所以，我更加推荐在挂载 Drive 后，多执行一条 cp 指令，将 darknet 文件夹复制到 Colab 的存储空间中，这样训练将更加稳定。
 
-（当然有些人是拿来备份的）
+当然，在有些训练时长比较久的场景下，有部分用户直接在 Google Drive 路径下进行训练，是有用作备份的意图的。这种情况下，由于 Google Colab 本身会对长时间保持连接的用户自动断开，用这种方法保持连接也是一个好选择。唯需要注意保证外网连接正常，尽量避免 Google Drive 与 Colab 断开连接。
 
+
+
+## 用 Google Colab 开始训练
+
+文件传输完毕后，就可以开始训练了，由于 Colab 已经配置好了 CUDA、cuDNN 和 OpenCV 环境，所以只需要调整 Makefile 设置，编译 darknet 后，直接开始训练就可以了。
+
+- 使用 `!cd darknet` 命令，进入 darknet 文件夹
+
+- 运行如下代码，修改 Makefile ，使其调用 CUDA、cuDNN 以及 OpenCV 进行训练：
+
+  ```python
+  !
+  !
+  !
+  ```
+
+- 执行 `!make` 指令对 darknet 进行编译
+
+- 编译成功后，使用训练指令进行训练即可，如下：
+
+  ```python
+  ./darknet detector train cfg/xxx.cfg cfg/xxx.data yolov4-tiny.conv.29 -dont-show
+  
+  # 由于是在服务器上训练，所以使用 -dont-show 指令避免出错。
+  ```
+
+  
+
+
+
+## darknet 文件夹训练前内容存放指南
