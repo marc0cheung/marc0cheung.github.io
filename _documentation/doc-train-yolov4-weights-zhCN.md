@@ -1,5 +1,5 @@
 ---
-title: 'Train .weights File for YOLOv4 on Win/Ubuntu'
+title: '在 Windows 上训练自己的 YOLOv4 权重文件'
 date: 2022-06-08
 permalink: /doc/2022/06/train-yolov4-weights-zhCN/
 tags:
@@ -7,7 +7,6 @@ tags:
   - YOLOv4 Weights
   - Tutorials
   - Windows
-  - Ubuntu
 ---
 
 
@@ -16,7 +15,7 @@ tags:
 
 **选择语言**: [英文](https://marc0cheung.github.io/doc/2022/06/train-yolov4-weights/) / [正体中文](https://marc0cheung.github.io/doc/2022/06/train-yolov4-weights-zhHK/) / 简体中文
 
-首先要确定自己电脑上的 darknet 可以正常利用命令行工作！如果不可以，则参考 [部署 YOLOv4](https://marc0cheung.github.io/doc/2022/06/deploy-yolov4-windows-zhCN/) 部分的内容。
+首先要确定自己电脑上的 darknet 可以正常利用命令行工作，如果不可以，则参考 [部署 YOLOv4](https://marc0cheung.github.io/doc/2022/06/deploy-yolov4-windows-zhCN/) 部分的内容。
 
 
 
