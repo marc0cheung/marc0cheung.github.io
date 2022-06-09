@@ -138,6 +138,8 @@ The  `.conv.xxx` file, is something called `pre-trained weights` . This is the f
 
   - **Step 5**: The `batch` and `subdivisions` under [net] do not need to be modified here as they are for training. However, if you get a `CUDA out of memory` message during training, you can increase the `subdivisions` here, but the larger the value, the longer the training will take, so be sure to make the trade-off before modifying it.
 
+For `batch` and `subdivisions` , you can choose **16, 32, 64** for `batch` and **4, 8, 16** for `subdivisions`.
+
 
 
 #### Modify .names File and .data File

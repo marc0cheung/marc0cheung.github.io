@@ -138,6 +138,8 @@ list_file.close()
 
   - Step 5: [net] 下的 `batch` 和 `subdivisions` ，由于是进行训练，这里不用修改。但如果训练过程中，出现了 CUDA out of memory 的提示，可以将这里的 `subdivisions` 增大，但这个数值越大，训练用时越长，因此修改前务必进行权衡。
 
+对于 `batch` 和 `subdivisions` , 你可以选择 **16, 32, 64** for `batch` 以及 **4, 8, 16** for `subdivisions`.
+
 
 
 #### 修改 .names 文件和 .data 文件
