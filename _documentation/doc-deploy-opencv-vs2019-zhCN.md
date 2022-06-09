@@ -44,9 +44,9 @@ tags:
 - 在 “解决方案资源管理器” 中，在解决方案名称处右键，选择 “属性” 。
 - 确定 “配置” 与 “平台” 是开发需要的配置，本文档以 Release x64 为例。
 
-<img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-opencv-vs2019.assets/1654590227607.png" alt="img" style="zoom:60%;" />
+<div align="center"><img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-opencv-vs2019.assets/1654590227607.png" alt="img" style="zoom:60%;" /></div>
 
-<img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-opencv-vs2019.assets/16545905073982.png" alt="img" style="zoom: 67%;" />
+<div align="center"><img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-opencv-vs2019.assets/16545905073982.png" alt="img" style="zoom: 67%;" /></div>
 
 - 切换到恰当配置后，选择 "C++" - "常规" - “附加包含目录”，添加如下目录：
   `D:\opencv\build\include`  以及
@@ -54,16 +54,16 @@ tags:
 
 
 
-<img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-opencv-vs2019.assets/16545903811819.png" alt="img" style="zoom:50%;" />
+<div align="center"><img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-opencv-vs2019.assets/16545903811819.png" alt="img" style="zoom:50%;" /></div>
 
-<img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-opencv-vs2019.assets/1.png" alt="img" style="zoom:67%;" />
+<div align="center"><img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-opencv-vs2019.assets/1.png" alt="img" style="zoom:67%;" /></div>
 
 - 在 “链接器” - “常规” - “附加库目录” 中添加：
   `D:\opencv\build\x64_dnn\vc16\lib` （如上二图所示）
 
 
 
-<img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-opencv-vs2019.assets/1654590961156.png" alt="img" style="zoom:60%;" />
+<div align="center"><img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-opencv-vs2019.assets/1654590961156.png" alt="img" style="zoom:60%;" /></div>
 
 - 在 “链接器” - “输入” - “附加依赖项” 中添加：
   `opencv_world455.lib` （如果解决方案使用 `Release` 模式）
