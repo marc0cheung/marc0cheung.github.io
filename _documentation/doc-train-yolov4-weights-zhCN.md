@@ -105,14 +105,14 @@ list_file.close()
 
 
 
-最后的 `.conv.xxx` 格式文件，是一个称为 `预训练权重` 的东西，是训练自己的网络所必须的文件。有些 `预训练权重` 可以在网络上下载到，但有些网络上无法找到。此时需要自己通过指令生成。
+最后的 `.conv.xxx` 格式文件，是一个称为 `卷积权重` 的东西，是训练自己的网络所必须的文件。有些 `卷积权重` 可以在网络上下载到，但有些网络上无法找到。此时需要自己通过指令生成。当然，能够生成卷积权重的前提是需要提前有该网络对应的 coco 预训练权重放在文件夹对应的目录中，例如下方指令中的：`Yolo-Fastest\COCO\yolo-fastest-1.1-xl.weights`
 
 #### 生成预训练权重的方法
 
 - 进入编译后得到的 darknet 的文件夹，例如 `D:\darknet\build\darknet\x64` ，在该路径的 PowerShell 下键入如下指令：
 
 ```bash
-.\darknet.exe partial Yolo-Fastest\COCO\yolo-fastest-1.1-xl.cfg Yolo-Fastest\COCO\yolo-fastest-1.1-xl.weights yolo-fastest.conv.109 109
+.\darknet.exe partial Yolo-Fastest\COCO\yolo-fastest-1.1-xl.cfg Yolo-Fastest\COCO\yolo-fastest-1.1-xl.weights yolo-fastest.conv.109
 ```
 
 -  可以在 x64 文件夹下，得到一个名为 `yolo-fastest.conv.109` 的 COCO 预训练模型 文件。

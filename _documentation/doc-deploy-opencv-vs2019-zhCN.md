@@ -33,6 +33,7 @@ tags:
 - 前往 [OpenCV Release](https://opencv.org/releases/) 下载 OpenCV 4.5.5 或需要的版本。OpenCV 3 与 OpenCV 4 的配置方法只有些许不同。
 - 运行 OpenCV 安装包，将 OpenCV 解压到 `D:\opencv\` 或者其它需要的路径地址。本文使用 `D:\opencv455\opencv\` 作为示范，下同。
 - 解压后，打开系统环境变量，将 `D:\oepncv455\opencv\build\x64\vc15\bin` 添加到系统变量的 `Path` 中。
+- 注意，这里配置的 OpenCV 是 64 位 CPU 版，如果需要使用支持 CUDA 辅助计算的 OpenCV with CUDA ，或者需要 32 位 CPU 版本的 OpenCV ，请参阅：[用 CMake 重新编译 OpenCV](https://marc0cheung.github.io/doc/2022/06/compile-opencv-cuda-cmake-zhCN/)
 
 
 

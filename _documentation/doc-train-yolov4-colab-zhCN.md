@@ -163,7 +163,7 @@ Google Drive 与 Google Colab 同属 Google 系列的产品，两个产品之间
 4. 将存有训练素材图片**路径**的 `test.txt` 与 `train.txt` 文件也放入 `./darknet/data/` 下。
 5. 将 `remote.names` 文件也放入 `./darknet/data/` 下。
 6. 将 `remote.cfg` 与 `remote.data` 放入 `./darknet/cfg/` 下。
-7. 将 COCO 预训练模型 `yolov4-tiny.conv.29` 放入 `./darknet/` 下。
+7. 将 COCO 卷积权重 `yolov4-tiny.conv.29` 放入 `./darknet/` 下。
 
 
 

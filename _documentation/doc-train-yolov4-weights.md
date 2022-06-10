@@ -105,7 +105,7 @@ The program above has a special system type switch. `u` for the unix class and `
 
 
 
-The  `.conv.xxx` file, is something called `pre-trained weights` . This is the file that must be used in the process of training your own .weights file. Some `pre-trained weights` can be downloaded from the Internet, but some are not available on the Internet. In this case you will need to generate them yourself via a command.
+The  `.conv.xxx` file, is something called `Convolution weights` . This is the file that must be used in the process of training your own .weights file. Some `Convolution weights` can be downloaded from the Internet, but some are not available on the Internet. In this case you will need to generate them yourself via a command. Of course, the prerequisite for generating convolutional weights is to have the corresponding coco pre-training weights for the network in the corresponding directory of the folder in advance, such as the following command: `Yolo-Fastest\COCO\yolo-fastest-1.1-xl.weights`
 
 #### Method for generating pre-training weights
 
