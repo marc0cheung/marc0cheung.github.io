@@ -144,9 +144,9 @@ Google Drive 与 Google Colab 同属 Google 系列的产品，两个产品之间
 - 编译成功后，使用训练指令进行训练即可，如下：
 
   ```python
-  ./darknet detector train cfg/xxx.cfg cfg/xxx.data yolov4-tiny.conv.29 -dont-show
+  ./darknet detector train cfg/xxx.cfg cfg/xxx.data yolov4-tiny.conv.29 -dont_show
   
-  # 由于是在服务器上训练，所以使用 -dont-show 指令避免出错。
+  # 由于是在服务器上训练，所以使用 -dont_show 指令避免出错。
   ```
 
   
@@ -154,3 +154,45 @@ Google Drive 与 Google Colab 同属 Google 系列的产品，两个产品之间
 
 
 ## darknet 文件夹训练前内容存放指南
+
+在训练之前，需要将所有文件都准备妥当，一起上传到 Colab 中进行训练。尽量能做到一次传输即可开始训练，避免文件重复传输导致隐藏的错误发生。
+
+1. 从  [AlexeyAB/darknet](https://github.com/AlexeyAB/darknet/) 下载 darknet 源码后，解压出来得到一个名为 `darknet-master` 的文件夹。将其重命名为 `darknet` 。
+2. 由于是在服务器上训练，所以不需要像 Windows 一样将文件放到 `darknet\build\darknet\x64` 下，而是直接放到 `./darknet/` 下即可
+3. 将存有训练素材图片的 `test` 和 `train` 文件夹放入 `./darknet/data/` 下。
+4. 将存有训练素材图片**路径**的 `test.txt` 与 `train.txt` 文件也放入 `./darknet/data/` 下。
+5. 将 `remote.names` 文件也放入 `./darknet/data/` 下。
+6. 将 `remote.cfg` 与 `remote.data` 放入 `./darknet/cfg/` 下。
+7. 将 COCO 预训练模型 `yolov4-tiny.conv.29` 放入 `./darknet/` 下。
+
+
+
+**文件存储路径预览如下**：
+
+```
+./darknet/
+|_____ data
+|      |_____ test
+|      |      |_____ 1.png
+|      |      |_____ 1.txt
+|      |      |_____ ...
+|      |      |_____ n.png
+|      |      |_____ n.txt
+|      |_____ train
+|      |      |_____ 3.png
+|      |      |_____ 3.txt
+|      |      |_____ ...
+|      |      |_____ x.png
+|      |      |_____ x.txt
+|      |_____ remote.names
+|      |_____ train.txt
+|      |_____ test.txt
+|_____ cfg
+|      |_____ remote.cfg
+|      |_____ remote.data
+|
+|_____ yolov4-tiny.conv.29
+```
+
+
+
