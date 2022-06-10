@@ -37,8 +37,6 @@ Of course, the configurations of *OpenCV with CUDA* and *OpenCV 32-bit* are also
 
 - Add `D:\opencv455\opencv\build\x64\vc15\bin` to `Path` of System Environment Variable. 
 
-Mind that what we configure here is the 64-bit CPU version of OpenCV. If you want to use 32-bit CPU version of OpenCV or OpenCV with CUDA, please refer to [Compile OpenCV with CMake](https://marc0cheung.github.io/doc/2022/06/compile-opencv-cuda-cmake/)
-
 
 
 ### Deploy OpenCV to VS2019

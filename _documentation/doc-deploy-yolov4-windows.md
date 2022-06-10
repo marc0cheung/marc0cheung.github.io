@@ -76,6 +76,7 @@ OpenCV Official Download Link: [Link](https://opencv.org/releases/)
 
 - Go to OpenCV Official Release Page and Download OpenCV 4.5.5, Run the .exe file and let it extract itself to `D:\opencv\` .
 - Add a variable named `OpenCV_DIR` to the system environment variable, with Value set to `D:\opencv\build (depending on the installation path)`
+- Mind that what we configure here is the 64-bit CPU version of OpenCV. If you want to use 32-bit CPU version of OpenCV or OpenCV with CUDA, please refer to [Compile OpenCV with CMake](https://marc0cheung.github.io/doc/2022/06/compile-opencv-cuda-cmake/)
 
 <div align="center"><img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_documentation/doc-deploy-yolov4-windows.assets/Untitled%202.png" alt="Untitled" width="800px" /></div>
 
