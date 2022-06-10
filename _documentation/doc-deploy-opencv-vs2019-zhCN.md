@@ -16,9 +16,9 @@ tags:
 
 
 
-这篇教程是写给那些想在自己的电脑上部署 64位 基于 CPU 的 OpenCV ，并用该框架用 Visual Studio 2019 进行应用程序开发的用户们。
+这篇教程是写给那些想在自己的电脑上部署 64位 基于 CPU 的 OpenCV ，并用该框架用 Visual Studio 2019 进行应用程序开发的用户们。当然，GPU 版本 与 32 位版本 OpenCV 的配置都遵循以下步骤。
 
-如果你需要 32 位的 OpenCV ，或者需要 OpenCV 调用 CUDA 进行加速运算，那么，需要使用 CMake 对 OpenCV 的源代码进行重新编译。
+如果你需要 32 位的 OpenCV ，或者需要 OpenCV 调用 CUDA 进行加速运算，那么，需要使用 CMake 对 OpenCV 的源代码进行重新编译，再按照本文章的步骤进行配置。
 
 
 

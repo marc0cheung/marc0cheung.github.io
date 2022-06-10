@@ -15,6 +15,8 @@ tags:
 
 This tutorial is for those who wants to deploy OpenCV **(64bit, CPU Computing Version)** to their computer and develop their own OpenCV programme with **Microsoft Visual Studio 2019**. 
 
+Of course, the configurations of *OpenCV with CUDA* and *OpenCV 32-bit* are also the same as this tutorial shows, but you need to re-compile OpenCV under the specify environment and then follow this tutorial to configure OpenCV.
+
 
 
 ## Step 1: Download VS2019

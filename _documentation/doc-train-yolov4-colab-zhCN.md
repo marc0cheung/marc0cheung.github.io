@@ -134,9 +134,9 @@ Google Drive 与 Google Colab 同属 Google 系列的产品，两个产品之间
 - 运行如下代码，修改 Makefile ，使其调用 CUDA、cuDNN 以及 OpenCV 进行训练：
 
   ```python
-  !
-  !
-  !
+  !sed -i 's/OPENCV=0/OPENCV=1' Makefile
+  !sed -i 's/GPU=0/GPU=1' Makefile
+  !sed -i 's/CUDNN=0/CUDNN=1' Makefile
   ```
 
 - 执行 `!make` 指令对 darknet 进行编译
@@ -144,7 +144,7 @@ Google Drive 与 Google Colab 同属 Google 系列的产品，两个产品之间
 - 编译成功后，使用训练指令进行训练即可，如下：
 
   ```python
-  ./darknet detector train cfg/xxx.cfg cfg/xxx.data yolov4-tiny.conv.29 -dont_show
+  ./darknet detector train cfg/xxx.data cfg/xxx.cfg yolov4-tiny.conv.29 -dont_show
   
   # 由于是在服务器上训练，所以使用 -dont_show 指令避免出错。
   ```
