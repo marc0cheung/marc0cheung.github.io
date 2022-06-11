@@ -39,17 +39,17 @@ Before generating the `.txt` file, `label2train.py` needs to be placed in the ap
 ```
 YOLOTraining
 |_____ test
-        |_____ 1.png
-        |_____ 1.txt
-        |_____ ...
-        |_____ n.png
-        |_____ n.txt
+|       |_____ 1.png
+|       |_____ 1.txt
+|       |_____ ...
+|       |_____ n.png
+|       |_____ n.txt
 |_____ train
-        |_____ 3.png
-        |_____ 3.txt
-        |_____ ...
-        |_____ x.png
-        |_____ x.txt
+|       |_____ 3.png
+|       |_____ 3.txt
+|       |_____ ...
+|       |_____ x.png
+|       |_____ x.txt
 |_____ label2train.py
 |_____ test.txt  (Will be Generated after running label2train.py)
 |_____ train.txt (Will be Generated after running label2train.py)

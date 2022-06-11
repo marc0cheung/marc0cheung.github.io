@@ -40,17 +40,17 @@ tags:
 ```
 YOLOTraining (用於存放訓練素材的文件夾)
 |_____ test
-        |_____ 1.png
-        |_____ 1.txt
-        |_____ ...
-        |_____ n.png
-        |_____ n.txt
+|       |_____ 1.png
+|       |_____ 1.txt
+|       |_____ ...
+|       |_____ n.png
+|       |_____ n.txt
 |_____ train
-        |_____ 3.png
-        |_____ 3.txt
-        |_____ ...
-        |_____ x.png
-        |_____ x.txt
+|       |_____ 3.png
+|       |_____ 3.txt
+|       |_____ ...
+|       |_____ x.png
+|       |_____ x.txt
 |_____ label2train.py
 |_____ test.txt (調用 label2train.py 後生成)
 |_____ train.txt (調用 label2train.py 後生成)
