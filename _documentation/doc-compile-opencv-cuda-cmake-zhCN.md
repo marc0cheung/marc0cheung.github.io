@@ -10,7 +10,7 @@ tags:
   - Simplified Chinese
 ---
 
-**选择语言**：[英文](https://marc0cheung.github.io/doc/2022/06/compile-opencv-cuda-cmake/) / [正体中文](https://marc0cheung.github.io/doc/2022/06/compile-opencv-cuda-cmake-zhHK/) / 简体中文
+**选择语言**：[English](https://marc0cheung.github.io/doc/2022/06/compile-opencv-cuda-cmake/) / [正體中文](https://marc0cheung.github.io/doc/2022/06/compile-opencv-cuda-cmake-zhHK/) / 简体中文
 
 
 

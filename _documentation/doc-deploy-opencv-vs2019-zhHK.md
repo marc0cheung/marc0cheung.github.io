@@ -12,7 +12,7 @@ tags:
 
 ## 步驟 0: 確保本教程適合你
 
-**選擇語言:** [英文](https://marc0cheung.github.io/doc/2022/06/deploy-opencv-vs2019/) / [簡體中文](https://marc0cheung.github.io/doc/2022/06/deploy-opencv-vs2019-zhCN/) / 正體中文
+**選擇語言:** [English](https://marc0cheung.github.io/doc/2022/06/deploy-opencv-vs2019/) / [简体中文](https://marc0cheung.github.io/doc/2022/06/deploy-opencv-vs2019-zhCN/) / 正體中文
 
 
 

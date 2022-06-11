@@ -14,8 +14,7 @@ tags:
 </aside>
 
 
-
-**Select Language**: English / [Traditional Chinese](https://marc0cheung.github.io/doc/2022/06/deploy-yolov4-windows-zhHK/) / [Simplified Chinese](https://marc0cheung.github.io/doc/2022/06/deploy-yolov4-windows-zhCN/)
+**Select Language**: English / [正體中文](https://marc0cheung.github.io/doc/2022/06/deploy-yolov4-windows-zhHK/) / [简体中文](https://marc0cheung.github.io/doc/2022/06/deploy-yolov4-windows-zhCN/)
 
 
 

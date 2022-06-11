@@ -13,7 +13,7 @@ tags:
 <aside>
 💡 Use this documentation to describe the steps engineers should follow to deploy.
 </aside>
-**选择语言**：[英文](https://marc0cheung.github.io/doc/2022/06/deploy-yolov4-windows/) / [正体中文](https://marc0cheung.github.io/doc/2022/06/deploy-yolov4-windows-zhHK/) / 简体中文
+**选择语言**：[English](https://marc0cheung.github.io/doc/2022/06/deploy-yolov4-windows/) / [正體中文](https://marc0cheung.github.io/doc/2022/06/deploy-yolov4-windows-zhHK/) / 简体中文
 
 
 

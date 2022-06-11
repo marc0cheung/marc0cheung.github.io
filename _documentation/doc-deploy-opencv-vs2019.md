@@ -11,7 +11,7 @@ tags:
 
 ## Step 0: Make sure this tutorial is suitable for you
 
-**Select Language:** English / [Simplified Chinese](/doc/2022/06/deploy-opencv-vs2019-zhCN/) / [Traditional Chinese](https://marc0cheung.github.io/doc/2022/06/deploy-opencv-vs2019-zhHK/)
+**Select Language:** English / [简体中文](/doc/2022/06/deploy-opencv-vs2019-zhCN/) / [正體中文](https://marc0cheung.github.io/doc/2022/06/deploy-opencv-vs2019-zhHK/)
 
 This tutorial is for those who wants to deploy OpenCV **(64bit, CPU Computing Version)** to their computer and develop their own OpenCV programme with **Microsoft Visual Studio 2019**. 
 

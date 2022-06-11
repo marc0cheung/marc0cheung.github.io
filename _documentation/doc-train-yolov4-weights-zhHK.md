@@ -13,7 +13,7 @@ tags:
 
 
 
-**選擇語言**: [英文](https://marc0cheung.github.io/doc/2022/06/train-yolov4-weights/) / 正體中文 / [簡體中文](https://marc0cheung.github.io/doc/2022/06/train-yolov4-weights-zhCN/)
+**選擇語言**: [English](https://marc0cheung.github.io/doc/2022/06/train-yolov4-weights/) / 正體中文 / [简体中文](https://marc0cheung.github.io/doc/2022/06/train-yolov4-weights-zhCN/)
 
 首先要確定自己電腦上的 darknet 可以正常利用命令行工作，如果不可以，則參考 [部署 YOLOv4](https://marc0cheung.github.io/doc/2022/06/deploy-yolov4-windows-zhHK/) 部分的內容。
 
