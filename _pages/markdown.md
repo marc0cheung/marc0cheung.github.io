@@ -19,6 +19,12 @@ I made a gitbook (which is currently in Simplified Chinese only, zhHK ver. and E
 
 <br>
 
+## Move to macOS
+
+### [Use Git and GitHub on macOS](https://marc0cheung.github.io/doc/2022/06/git-github-macOS/)
+
+
+
 ## OpenCV, CUDA and cuDNN
 
 ### [How to Deploy OpenCV to VS2019](https://marc0cheung.github.io/doc/2022/06/deploy-opencv-vs2019/)
