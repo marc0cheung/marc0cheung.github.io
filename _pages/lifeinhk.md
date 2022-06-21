@@ -13,19 +13,13 @@ redirect_from:
 <br>
 
 <details>
-    <summary style="font-weight:bold">TPg Life in Hong Kong</summary>
+    <summary style="font-weight:bold">Section 1: TPg Life in Hong Kong</summary>
     <br>
     <details>
         <summary style="font-weight:bold">Prepare for IELTS Test</summary>
-        <a href="https://marc0cheung.github.io">Prepare for Listening and Reading Part</a>
+        <a href="https://marc0cheung.github.io/hk/2022/06/get-ielts-7p5-zhHK/">Get IELTS 7.5 in 30 days</a>
         <br>
-        <a href="https://marc0cheung.github.io">Prepare for IELTS Writing Task</a>
-        <br>
-        <a href="https://marc0cheung.github.io">Prepare for IELTS Speaking Test</a>
-        <br>
-        <a href="https://marc0cheung.github.io">Arrange your time well</a>
-        <br>
-        <a href="https://marc0cheung.github.io">My experience of taking Computer-based IELTS exam in Guangzhou, China</a>
+        <a href="https://marc0cheung.github.io/hk/2022/06/canton-ielts-experience-zhHK/">My experience of taking Computer-based IELTS exam in Guangzhou, China</a>
         <br><br>
     </details>
     <details>
@@ -75,10 +69,4 @@ redirect_from:
         <br><br>
     </details>
 
-
-
-
-[Out](https://marc0cheung.github.io/hk/2022/06/hello-hong-kong-out/)
-
-[in](https://marc0cheung.github.io/hk/2022/06/hello-hong-kong-in/)
 
