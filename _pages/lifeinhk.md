@@ -78,4 +78,7 @@ redirect_from:
 
 
 
+[Out](https://marc0cheung.github.io/hk/2022/06/hello-hong-kong-out/)
+
+[in](https://marc0cheung.github.io/hk/2022/06/hello-hong-kong-in/)
 
