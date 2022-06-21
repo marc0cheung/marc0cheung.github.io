@@ -37,7 +37,7 @@ redirect_from:
         <a>Application Procedure</a>
         <br>
         <a>While Waiting for the results...</a>
-        <br>
+        <br><br>
     </details>
     <details>
         <summary style="font-weight:bold">After Getting an Offer</summary>
