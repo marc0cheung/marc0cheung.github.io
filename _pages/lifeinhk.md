@@ -35,9 +35,9 @@ redirect_from:
     </details>
     <details>
         <summary style="font-weight:bold">After Getting an Offer</summary>
-        <a>Certificate of Deposit</a>
+        <a href="https://marc0cheung.github.io/hk/2022/06/certificate-of-deposit-zhHK/">Certificate of Deposit</a>
         <br>
-        <a>For Mainland China Students: EEP and Student Visa</a>
+        <a href="https://marc0cheung.github.io/hk/2022/06/eep-and-student-visa-zhHK/">For Mainland China Students: EEP and Student Visa</a>
         <br>
         <a>Change Con-Offer to Firm-Offer</a>
         <br><br>
@@ -68,5 +68,6 @@ redirect_from:
         <a>About "Provisional Vaccine Pass" and Get 3rd dose BNT Vaccine in Hong Kong</a>
         <br><br>
     </details>
+
 
 
