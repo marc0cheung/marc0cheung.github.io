@@ -44,7 +44,7 @@ redirect_from:
     </details>
     <details>
         <summary style="font-weight:bold">Arriving at Hong Kong</summary>
-        <a>Apply for HKID and Hong Kong Driving Lisence</a>
+        <a href="https://marc0cheung.github.io/hk/2022/06/get-hkid-zhHK/">Apply for HKID and Hong Kong Driving Lisence</a>
         <br>
         <a>Student Card and JULAC Library Card</a>
         <br>
