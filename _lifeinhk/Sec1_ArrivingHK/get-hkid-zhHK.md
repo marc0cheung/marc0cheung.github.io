@@ -69,7 +69,7 @@ A：是的，你的預約仍然有效。你可用「查詢預約」服務檢索�
 
 # 持中國駕照者免試換領香港駕照安排
 
-<div align="center"><img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_lifeinhk/Sec1_ArrivingHK/get-hkid-zhHK.assets/image-20220626191909517.png" alt="image-20220626191909517" width=600px" /></div>
+<div align="center"><img src="https://github.com/marc0cheung/marc0cheung.github.io/raw/main/_lifeinhk/Sec1_ArrivingHK/get-hkid-zhHK.assets/image-20220626191909517.png" alt="China Driving License vs. HK Driving License" width="600px"></div>
 
 <br>
 
