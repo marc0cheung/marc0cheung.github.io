@@ -18,3 +18,11 @@ YOLOv4-Tiny Remote Control Detection instances using OpenCV DNN module. 3 versio
 
 
 The YOLO family of deep learning networks has been well received by the community. [AlexeyAB](https://github.com/AlexeyAB/darknet/) uses Darknet to implement YOLOv4, a target detection network with a good balance of speed and recognition rate. The OpenCV support for the DNN module makes it easy to read the neural network weights, `.cfg` files and `.names` files, thus eliminating the slow detection rate of Darknet.
+
+
+
+# [WIFIDuino-MQTT-TempSensor](https://github.com/marc0cheung/WIFIDuino-Sensor-MQTT)
+
+This project is from my BEng Graduation Thesis "Single-chip Soil Temperature and Humidity Detection System Design Based on Wi-Fi Technology".
+
+The repo contains source code and PCB Design of the Soil temperature and humidity detector prototype based on Arduino and MQTT Protocol, companion Android App developed via MIT App Inventor 2.
