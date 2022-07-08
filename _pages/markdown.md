@@ -23,6 +23,8 @@ I made a gitbook (which is currently in Simplified Chinese only, zhHK ver. and E
 
 ### [Use Git and GitHub on macOS](https://marc0cheung.github.io/doc/2022/06/git-github-macOS/)
 
+### [Install, Configure and Use Anaconda on macOS](https://marc0cheung.github.io/doc/2022/07/anaconda-macOS/)
+
 
 
 ## OpenCV, CUDA and cuDNN
