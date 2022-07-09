@@ -26,3 +26,6 @@ The YOLO family of deep learning networks has been well received by the communit
 This project is from my BEng Graduation Thesis "Single-chip Soil Temperature and Humidity Detection System Design Based on Wi-Fi Technology".
 
 The repo contains source code and PCB Design of the Soil temperature and humidity detector prototype based on Arduino and MQTT Protocol, companion Android App developed via MIT App Inventor 2.
+
+# [SendMessageSafe 安心傳訊](https://github.com/marc0cheung/SendMessageSafe/)
+SendMessageSafe is a Python-based message encryption and decryption tool for securely transmitting messages on platforms with censorship without having to get caught by "the old big brother". Supports AES symmetric encryption and RSA asymmetric encryption.
